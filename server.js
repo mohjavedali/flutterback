@@ -16,7 +16,7 @@ mongoose
   });
 const product = require('./routes/product.route');
 app.get('/', (req,res)=>{
-    res.send({"message":"first hi value."});
+    res.send({"message":"first hi value. deploy new code."});
 });
 app.get('/notes', (req, res)=>{
     res.send("hi");
